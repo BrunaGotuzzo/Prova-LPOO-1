@@ -11,11 +11,11 @@ import modelo.Aluno;
 public class AlunoController {
 	
 	public static void main(String[] args) {
-		//QUESTÂO 1
+		//QUESTÃ‚O 1
 		
-//Parte 1: Criar 6 instancias entre padrão e parametrizado //
+//Parte 1: Criar 6 instancias entre padrÃ£o e parametrizado //
 		
-		    Aluno aluno1= new Aluno(1, 234422, "João", "Silva", "joao_Silva@hotmail.com");
+		    Aluno aluno1= new Aluno(1, 234422, "JoÃ£o", "Silva", "joao_Silva@hotmail.com");
 		    Aluno aluno2= new Aluno(2, 335522, "Maria", "Rodrigues", "maria_rodri@hotmail.com");
 		    Aluno aluno3= new Aluno(3, 664322, "Rodrigo", "Carvalho", "rod_carvalho@hotmail.com");
 		    Aluno aluno4= new Aluno(4, 366770, "Ana", "Silva", "ana_silva@hotmail.com");
@@ -26,7 +26,7 @@ public class AlunoController {
 	        System.out.println("\nAlunos:\n");
 	        System.out.println(aluno1 + "\n" + aluno2 + "\n" + aluno3 + "\n" + aluno4 + "\n" + aluno5 + "\n" + aluno6 + "\n");
 
-//Parte 2: Criar 6 instancias entre padrão e parametrizado //	        
+//Parte 2: Criar 6 instancias entre padrÃ£o e parametrizado //	        
  
    //Aluno 5
 	   aluno5.setId(5);
@@ -46,7 +46,7 @@ public class AlunoController {
    System.out.println("Aluno:\n" + "Id: " + aluno5.getId() + "  " +"Cpf: " + aluno5.getCpf() + "  " +"Nome: " + aluno5.getNome() + "  " +"Sobrenome: " + aluno5.getSobrenome()+"  " + "Email: " + aluno5.getEmail() + "\n");  
    System.out.println("Aluno:\n" + "Id: " + aluno6.getId() + "  " +"Cpf: " + aluno6.getCpf() + "  " +"Nome: " + aluno6.getNome() + "  " +"Sobrenome: " + aluno6.getSobrenome()+"  " + "Email: " + aluno6.getEmail() + "\n");  
 
-		//QUESTÂO 2
+		//QUESTÃ‚O 2
    
 //LIST & MAP
 
@@ -78,7 +78,7 @@ System.out.println("\nMap:\n");
 System.out.println(mapAluno);
 
 
-//Imprimir o objeto de id=2
+//Imprimir o objeto de id=5
 System.out.println("\nObjeto de id=5 \n");
 
 alunos.forEach(p -> {
