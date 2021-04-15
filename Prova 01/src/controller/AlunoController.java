@@ -26,7 +26,7 @@ public class AlunoController {
 	        System.out.println("\nAlunos:\n");
 	        System.out.println(aluno1 + "\n" + aluno2 + "\n" + aluno3 + "\n" + aluno4 + "\n" + aluno5 + "\n" + aluno6 + "\n");
 
-//Parte 2: Criar 6 instancias entre padrão e parametrizado //	        
+//Parte 2: Adicionar Alunos 5 & 6 //	        
  
    //Aluno 5
 	   aluno5.setId(5);
